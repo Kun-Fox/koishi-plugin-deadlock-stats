@@ -1,0 +1,31 @@
+{
+  "name": "koishi-plugin-deadlock-stats",
+  "version": "0.1.0",
+  "description": "Deadlock 战绩查询：绑定玩家、玩家信息、近期战绩、指定对局与最近一局",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "koishi",
+    "plugin",
+    "deadlock",
+    "game",
+    "stats",
+    "match"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/test-deadlock.cjs"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.0"
+  },
+  "koishi": {
+    "description": {
+      "zh": "Deadlock 战绩查询：绑定玩家、玩家信息、近期战绩、指定对局与最近一局。"
+    }
+  }
+}
