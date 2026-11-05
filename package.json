@@ -17,6 +17,14 @@
     "match"
   ],
   "license": "MIT",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Kun-Fox/koishi-plugin-deadlock-stats.git"
+},
+"homepage": "https://github.com/Kun-Fox/koishi-plugin-deadlock-stats#readme",
+"bugs": {
+  "url": "https://github.com/Kun-Fox/koishi-plugin-deadlock-stats/issues"
+},
   "scripts": {
     "test": "node test/test-deadlock.cjs"
   },
